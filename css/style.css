@@ -1,0 +1,23 @@
+* {
+    overflow: hidden;
+}
+
+.custom-container {
+    padding: 0;
+    margin: 0;
+    width: 100vw !important;
+}
+
+.container {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.side-bar {
+    height: 100vh;
+}
+
+.custom-hero {
+    display: flex;
+    align-items: flex-start;
+}
