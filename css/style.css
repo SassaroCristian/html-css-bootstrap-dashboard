@@ -1,6 +1,4 @@
-* {
-    overflow: hidden;
-}
+
 
 .custom-container {
     padding: 0;
@@ -17,7 +15,58 @@
     height: 100vh;
 }
 
-.custom-hero {
-    display: flex;
-    align-items: flex-start;
+
+#class-avatar-img {
+    width: 10% !important;
+}
+
+.prossime-classi-card {
+    height: 360px !important;
+    overflow-y: scroll !important;
+}
+
+
+
+.status-tags {
+    width: 50px;
+    color: #fff;
+    padding-top: 2px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    font-size: 12px;
+    height: 25px;
+}
+
+.tag-done {
+    background-color: #198754;
+    
+}
+
+.tag-process {
+    background-color: #ffd000;
+}
+
+.tag-failed {
+    background-color: #c21c1c;
+}
+
+.action-icons {
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid grey;
+    color: grey;
+    padding: 6px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.left-nav-bg {
+    background-color: #051E34;
+    background-image: url(../img/sidebar-bg.png);
+    background-size: cover;
+}
+
+#stats-img {
+    width: 90%;
 }

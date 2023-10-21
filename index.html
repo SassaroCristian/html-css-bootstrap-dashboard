@@ -17,7 +17,7 @@
 <body>
 
     <div class="container-fluid h-100">
-        <div class="row bg-red">
+        <div class="row">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#"><img src="./img/logo.svg" alt=""></a>
@@ -42,10 +42,10 @@
                 </div>
             </nav>
         </div>
-        <div class="row h-100">
-            <div class="col-1">
+        <div class="row">
+            <div class="col-1 left-nav-bg ">
                 <div>
-                    <ul class="nav side-bar flex-column">
+                    <ul class="nav side-bar flex-column w-t">
                         <li class="nav-item d-flex flex-align-center">
                             <i class="fas fas fa-home"></i><a class="nav-link active" aria-current="page"
                                 href="#">Home</a>
@@ -63,9 +63,14 @@
                 </div>
             </div>
             <div class="col-11">
-                <div class="row d-flex custom-hero">
-                    <div class="col-12 padding-none">
+                <div class="row d-flex">
+                    <div class="col-12">
                         <div class="row bg-blue">
+                            <div class="col-4 p">
+                                <h1>Boolean</h1>
+
+                            </div>
+
                             <div class="col-4">
                                 <h1>Boolean</h1>
 
@@ -73,25 +78,455 @@
 
                             <div class="col-4">
                                 <h1>Boolean</h1>
-                                
-                            </div>
 
-                            <div class="col-4">
-                                <h1>Boolean</h1>
-                                
                             </div>
                         </div>
                     </div>
                     <div class="col-8 padding-none responsive-col">
                         <div class="row">
                             <div class="col-12">
-                                <div class="card  border-radius-none">
+                                <div class="card m-16">
                                     <div class="card-header">
-                                        Quote
+                                        PROSSIME CLASSI
                                     </div>
-                                    <div class="card-body">
-                                        <blockquote class="blockquote mb-0">
-                                            <p>A well-known quote, contained in a blockquote element.</p>
+                                    <div class="card-body prossime-classi-card">
+                                        <div class="row d-flex ">
+                                            <div class="col-4">Nome</div>
+                                            <div class="col-2 text-center">Data inizio</div>
+                                            <div class="col-2 text-center">ROI</div>
+                                            <div class="col-2 text-center">Stato</div>
+                                            <div class="col-2 text-center">Azioni</div>
+                                            <hr class="mt-16">
+                                        </div>
+                                        <div class="row d-flex flex-align-center flex-justify-center">
+                                            <div class="col-4">
+                                                <img id="class-avatar-img" src="./img/class-avatar.jpg" alt="">
+                                                <span class="pl-16">Classe 75</span>
+                                            </div>
+                                            <div class="col-2 text-center">15 Feb 2021</div>
+                                            <div class="col-2 text-center">20%</div>
+                                            <div class="col-2 text-center d-flex flex-justify-center">
+                                                <div class="status-tags tag-done">Done</div>
+                                            </div>
+                                            <div class="col-2 flex-align-center d-flex flex-justify-center">
+                                                <i class="action-icons fas fas fa-pencil-alt"></i>
+                                                <i class="action-icons fas fas fa-trash"></i>
+                                            </div>
+                                            <hr class="mt-16">
+                                        </div>
+
+                                        <div class="row d-flex flex-align-center flex-justify-center">
+                                            <div class="col-4">
+                                                <img id="class-avatar-img" src="./img/class-avatar.jpg" alt="">
+                                                <span class="pl-16">Classe 75</span>
+                                            </div>
+                                            <div class="col-2 text-center">15 Feb 2021</div>
+                                            <div class="col-2 text-center">20%</div>
+                                            <div class="col-2 text-center d-flex flex-justify-center">
+                                                <div class="status-tags tag-done">Done</div>
+                                            </div>
+                                            <div class="col-2 flex-align-center d-flex flex-justify-center">
+                                                <i class="action-icons fas fas fa-pencil-alt"></i>
+                                                <i class="action-icons fas fas fa-trash"></i>
+                                            </div>
+                                            <hr class="mt-16">
+                                        </div>
+
+                                        <div class="row d-flex flex-align-center flex-justify-center">
+                                            <div class="col-4">
+                                                <img id="class-avatar-img" src="./img/class-avatar.jpg" alt="">
+                                                <span class="pl-16">Classe 75</span>
+                                            </div>
+                                            <div class="col-2 text-center">15 Feb 2021</div>
+                                            <div class="col-2 text-center">20%</div>
+                                            <div class="col-2 text-center d-flex flex-justify-center">
+                                                <div class="status-tags tag-process">Process</div>
+                                            </div>
+                                            <div class="col-2 flex-align-center d-flex flex-justify-center">
+                                                <i class="action-icons fas fas fa-pencil-alt"></i>
+                                                <i class="action-icons fas fas fa-trash"></i>
+                                            </div>
+                                            <hr class="mt-16">
+                                        </div>
+
+                                        <div class="row d-flex flex-align-center flex-justify-center">
+                                            <div class="col-4">
+                                                <img id="class-avatar-img" src="./img/class-avatar.jpg" alt="">
+                                                <span class="pl-16">Classe 75</span>
+                                            </div>
+                                            <div class="col-2 text-center">15 Feb 2021</div>
+                                            <div class="col-2 text-center">20%</div>
+                                            <div class="col-2 text-center d-flex flex-justify-center">
+                                                <div class="status-tags tag-done">Done</div>
+                                            </div>
+                                            <div class="col-2 flex-align-center d-flex flex-justify-center">
+                                                <i class="action-icons fas fas fa-pencil-alt"></i>
+                                                <i class="action-icons fas fas fa-trash"></i>
+                                            </div>
+                                            <hr class="mt-16">
+                                        </div>
+
+                                        <div class="row d-flex flex-align-center flex-justify-center">
+                                            <div class="col-4">
+                                                <img id="class-avatar-img" src="./img/class-avatar.jpg" alt="">
+                                                <span class="pl-16">Classe 75</span>
+                                            </div>
+                                            <div class="col-2 text-center">15 Feb 2021</div>
+                                            <div class="col-2 text-center">20%</div>
+                                            <div class="col-2 text-center d-flex flex-justify-center">
+                                                <div class="status-tags tag-failed">Failed</div>
+                                            </div>
+                                            <div class="col-2 flex-align-center d-flex flex-justify-center">
+                                                <i class="action-icons fas fas fa-pencil-alt"></i>
+                                                <i class="action-icons fas fas fa-trash"></i>
+                                            </div>
+                                            <hr class="mt-16">
+                                        </div>
+
+                                        <div class="row d-flex flex-align-center flex-justify-center">
+                                            <div class="col-4">
+                                                <img id="class-avatar-img" src="./img/class-avatar.jpg" alt="">
+                                                <span class="pl-16">Classe 75</span>
+                                            </div>
+                                            <div class="col-2 text-center">15 Feb 2021</div>
+                                            <div class="col-2 text-center">20%</div>
+                                            <div class="col-2 text-center d-flex flex-justify-center">
+                                                <div class="status-tags tag-done">Done</div>
+                                            </div>
+                                            <div class="col-2 flex-align-center d-flex flex-justify-center">
+                                                <i class="action-icons fas fas fa-pencil-alt"></i>
+                                                <i class="action-icons fas fas fa-trash"></i>
+                                            </div>
+                                            <hr class="mt-16">
+                                        </div>
+
+                                        <div class="row d-flex flex-align-center flex-justify-center">
+                                            <div class="col-4">
+                                                <img id="class-avatar-img" src="./img/class-avatar.jpg" alt="">
+                                                <span class="pl-16">Classe 75</span>
+                                            </div>
+                                            <div class="col-2 text-center">15 Feb 2021</div>
+                                            <div class="col-2 text-center">20%</div>
+                                            <div class="col-2 text-center d-flex flex-justify-center">
+                                                <div class="status-tags tag-done">Done</div>
+                                            </div>
+                                            <div class="col-2 flex-align-center d-flex flex-justify-center">
+                                                <i class="action-icons fas fas fa-pencil-alt"></i>
+                                                <i class="action-icons fas fas fa-trash"></i>
+                                            </div>
+                                            <hr class="mt-16">
+                                        </div>
+
+                                        <div class="row d-flex flex-align-center flex-justify-center">
+                                            <div class="col-4">
+                                                <img id="class-avatar-img" src="./img/class-avatar.jpg" alt="">
+                                                <span class="pl-16">Classe 75</span>
+                                            </div>
+                                            <div class="col-2 text-center">15 Feb 2021</div>
+                                            <div class="col-2 text-center">20%</div>
+                                            <div class="col-2 text-center d-flex flex-justify-center">
+                                                <div class="status-tags tag-process">Process</div>
+                                            </div>
+                                            <div class="col-2 flex-align-center d-flex flex-justify-center">
+                                                <i class="action-icons fas fas fa-pencil-alt"></i>
+                                                <i class="action-icons fas fas fa-trash"></i>
+                                            </div>
+                                            <hr class="mt-16">
+                                        </div>
+
+                                        <div class="row d-flex flex-align-center flex-justify-center">
+                                            <div class="col-4">
+                                                <img id="class-avatar-img" src="./img/class-avatar.jpg" alt="">
+                                                <span class="pl-16">Classe 75</span>
+                                            </div>
+                                            <div class="col-2 text-center">15 Feb 2021</div>
+                                            <div class="col-2 text-center">20%</div>
+                                            <div class="col-2 text-center d-flex flex-justify-center">
+                                                <div class="status-tags tag-done">Done</div>
+                                            </div>
+                                            <div class="col-2 flex-align-center d-flex flex-justify-center">
+                                                <i class="action-icons fas fas fa-pencil-alt"></i>
+                                                <i class="action-icons fas fas fa-trash"></i>
+                                            </div>
+                                            <hr class="mt-16">
+                                        </div>
+
+                                        <div class="row d-flex flex-align-center flex-justify-center">
+                                            <div class="col-4">
+                                                <img id="class-avatar-img" src="./img/class-avatar.jpg" alt="">
+                                                <span class="pl-16">Classe 75</span>
+                                            </div>
+                                            <div class="col-2 text-center">15 Feb 2021</div>
+                                            <div class="col-2 text-center">20%</div>
+                                            <div class="col-2 text-center d-flex flex-justify-center">
+                                                <div class="status-tags tag-failed">Failed</div>
+                                            </div>
+                                            <div class="col-2 flex-align-center d-flex flex-justify-center">
+                                                <i class="action-icons fas fas fa-pencil-alt"></i>
+                                                <i class="action-icons fas fas fa-trash"></i>
+                                            </div>
+                                            <hr class="mt-16">
+                                        </div>
+
+                                        <div class="row d-flex flex-align-center flex-justify-center">
+                                            <div class="col-4">
+                                                <img id="class-avatar-img" src="./img/class-avatar.jpg" alt="">
+                                                <span class="pl-16">Classe 75</span>
+                                            </div>
+                                            <div class="col-2 text-center">15 Feb 2021</div>
+                                            <div class="col-2 text-center">20%</div>
+                                            <div class="col-2 text-center d-flex flex-justify-center">
+                                                <div class="status-tags tag-done">Done</div>
+                                            </div>
+                                            <div class="col-2 flex-align-center d-flex flex-justify-center">
+                                                <i class="action-icons fas fas fa-pencil-alt"></i>
+                                                <i class="action-icons fas fas fa-trash"></i>
+                                            </div>
+                                            <hr class="mt-16">
+                                        </div>
+
+                                        <div class="row d-flex flex-align-center flex-justify-center">
+                                            <div class="col-4">
+                                                <img id="class-avatar-img" src="./img/class-avatar.jpg" alt="">
+                                                <span class="pl-16">Classe 75</span>
+                                            </div>
+                                            <div class="col-2 text-center">15 Feb 2021</div>
+                                            <div class="col-2 text-center">20%</div>
+                                            <div class="col-2 text-center d-flex flex-justify-center">
+                                                <div class="status-tags tag-done">Done</div>
+                                            </div>
+                                            <div class="col-2 flex-align-center d-flex flex-justify-center">
+                                                <i class="action-icons fas fas fa-pencil-alt"></i>
+                                                <i class="action-icons fas fas fa-trash"></i>
+                                            </div>
+                                            <hr class="mt-16">
+                                        </div>
+
+                                        <div class="row d-flex flex-align-center flex-justify-center">
+                                            <div class="col-4">
+                                                <img id="class-avatar-img" src="./img/class-avatar.jpg" alt="">
+                                                <span class="pl-16">Classe 75</span>
+                                            </div>
+                                            <div class="col-2 text-center">15 Feb 2021</div>
+                                            <div class="col-2 text-center">20%</div>
+                                            <div class="col-2 text-center d-flex flex-justify-center">
+                                                <div class="status-tags tag-process">Process</div>
+                                            </div>
+                                            <div class="col-2 flex-align-center d-flex flex-justify-center">
+                                                <i class="action-icons fas fas fa-pencil-alt"></i>
+                                                <i class="action-icons fas fas fa-trash"></i>
+                                            </div>
+                                            <hr class="mt-16">
+                                        </div>
+
+                                        <div class="row d-flex flex-align-center flex-justify-center">
+                                            <div class="col-4">
+                                                <img id="class-avatar-img" src="./img/class-avatar.jpg" alt="">
+                                                <span class="pl-16">Classe 75</span>
+                                            </div>
+                                            <div class="col-2 text-center">15 Feb 2021</div>
+                                            <div class="col-2 text-center">20%</div>
+                                            <div class="col-2 text-center d-flex flex-justify-center">
+                                                <div class="status-tags tag-done">Done</div>
+                                            </div>
+                                            <div class="col-2 flex-align-center d-flex flex-justify-center">
+                                                <i class="action-icons fas fas fa-pencil-alt"></i>
+                                                <i class="action-icons fas fas fa-trash"></i>
+                                            </div>
+                                            <hr class="mt-16">
+                                        </div>
+
+                                        <div class="row d-flex flex-align-center flex-justify-center">
+                                            <div class="col-4">
+                                                <img id="class-avatar-img" src="./img/class-avatar.jpg" alt="">
+                                                <span class="pl-16">Classe 75</span>
+                                            </div>
+                                            <div class="col-2 text-center">15 Feb 2021</div>
+                                            <div class="col-2 text-center">20%</div>
+                                            <div class="col-2 text-center d-flex flex-justify-center">
+                                                <div class="status-tags tag-failed">Failed</div>
+                                            </div>
+                                            <div class="col-2 flex-align-center d-flex flex-justify-center">
+                                                <i class="action-icons fas fas fa-pencil-alt"></i>
+                                                <i class="action-icons fas fas fa-trash"></i>
+                                            </div>
+                                            <hr class="mt-16">
+                                        </div>
+
+                                        <div class="row d-flex flex-align-center flex-justify-center">
+                                            <div class="col-4">
+                                                <img id="class-avatar-img" src="./img/class-avatar.jpg" alt="">
+                                                <span class="pl-16">Classe 75</span>
+                                            </div>
+                                            <div class="col-2 text-center">15 Feb 2021</div>
+                                            <div class="col-2 text-center">20%</div>
+                                            <div class="col-2 text-center d-flex flex-justify-center">
+                                                <div class="status-tags tag-done">Done</div>
+                                            </div>
+                                            <div class="col-2 flex-align-center d-flex flex-justify-center">
+                                                <i class="action-icons fas fas fa-pencil-alt"></i>
+                                                <i class="action-icons fas fas fa-trash"></i>
+                                            </div>
+                                            <hr class="mt-16">
+                                        </div>
+
+                                        <div class="row d-flex flex-align-center flex-justify-center">
+                                            <div class="col-4">
+                                                <img id="class-avatar-img" src="./img/class-avatar.jpg" alt="">
+                                                <span class="pl-16">Classe 75</span>
+                                            </div>
+                                            <div class="col-2 text-center">15 Feb 2021</div>
+                                            <div class="col-2 text-center">20%</div>
+                                            <div class="col-2 text-center d-flex flex-justify-center">
+                                                <div class="status-tags tag-done">Done</div>
+                                            </div>
+                                            <div class="col-2 flex-align-center d-flex flex-justify-center">
+                                                <i class="action-icons fas fas fa-pencil-alt"></i>
+                                                <i class="action-icons fas fas fa-trash"></i>
+                                            </div>
+                                            <hr class="mt-16">
+                                        </div>
+
+                                        <div class="row d-flex flex-align-center flex-justify-center">
+                                            <div class="col-4">
+                                                <img id="class-avatar-img" src="./img/class-avatar.jpg" alt="">
+                                                <span class="pl-16">Classe 75</span>
+                                            </div>
+                                            <div class="col-2 text-center">15 Feb 2021</div>
+                                            <div class="col-2 text-center">20%</div>
+                                            <div class="col-2 text-center d-flex flex-justify-center">
+                                                <div class="status-tags tag-process">Process</div>
+                                            </div>
+                                            <div class="col-2 flex-align-center d-flex flex-justify-center">
+                                                <i class="action-icons fas fas fa-pencil-alt"></i>
+                                                <i class="action-icons fas fas fa-trash"></i>
+                                            </div>
+                                            <hr class="mt-16">
+                                        </div>
+
+                                        <div class="row d-flex flex-align-center flex-justify-center">
+                                            <div class="col-4">
+                                                <img id="class-avatar-img" src="./img/class-avatar.jpg" alt="">
+                                                <span class="pl-16">Classe 75</span>
+                                            </div>
+                                            <div class="col-2 text-center">15 Feb 2021</div>
+                                            <div class="col-2 text-center">20%</div>
+                                            <div class="col-2 text-center d-flex flex-justify-center">
+                                                <div class="status-tags tag-done">Done</div>
+                                            </div>
+                                            <div class="col-2 flex-align-center d-flex flex-justify-center">
+                                                <i class="action-icons fas fas fa-pencil-alt"></i>
+                                                <i class="action-icons fas fas fa-trash"></i>
+                                            </div>
+                                            <hr class="mt-16">
+                                        </div>
+
+                                        <div class="row d-flex flex-align-center flex-justify-center">
+                                            <div class="col-4">
+                                                <img id="class-avatar-img" src="./img/class-avatar.jpg" alt="">
+                                                <span class="pl-16">Classe 75</span>
+                                            </div>
+                                            <div class="col-2 text-center">15 Feb 2021</div>
+                                            <div class="col-2 text-center">20%</div>
+                                            <div class="col-2 text-center d-flex flex-justify-center">
+                                                <div class="status-tags tag-failed">Failed</div>
+                                            </div>
+                                            <div class="col-2 flex-align-center d-flex flex-justify-center">
+                                                <i class="action-icons fas fas fa-pencil-alt"></i>
+                                                <i class="action-icons fas fas fa-trash"></i>
+                                            </div>
+                                            <hr class="mt-16">
+                                        </div>
+
+                                        <div class="row d-flex flex-align-center flex-justify-center">
+                                            <div class="col-4">
+                                                <img id="class-avatar-img" src="./img/class-avatar.jpg" alt="">
+                                                <span class="pl-16">Classe 75</span>
+                                            </div>
+                                            <div class="col-2 text-center">15 Feb 2021</div>
+                                            <div class="col-2 text-center">20%</div>
+                                            <div class="col-2 text-center d-flex flex-justify-center">
+                                                <div class="status-tags tag-done">Done</div>
+                                            </div>
+                                            <div class="col-2 flex-align-center d-flex flex-justify-center">
+                                                <i class="action-icons fas fas fa-pencil-alt"></i>
+                                                <i class="action-icons fas fas fa-trash"></i>
+                                            </div>
+                                            <hr class="mt-16">
+                                        </div>
+
+                                        <div class="row d-flex flex-align-center flex-justify-center">
+                                            <div class="col-4">
+                                                <img id="class-avatar-img" src="./img/class-avatar.jpg" alt="">
+                                                <span class="pl-16">Classe 75</span>
+                                            </div>
+                                            <div class="col-2 text-center">15 Feb 2021</div>
+                                            <div class="col-2 text-center">20%</div>
+                                            <div class="col-2 text-center d-flex flex-justify-center">
+                                                <div class="status-tags tag-done">Done</div>
+                                            </div>
+                                            <div class="col-2 flex-align-center d-flex flex-justify-center">
+                                                <i class="action-icons fas fas fa-pencil-alt"></i>
+                                                <i class="action-icons fas fas fa-trash"></i>
+                                            </div>
+                                            <hr class="mt-16">
+                                        </div>
+
+                                        <div class="row d-flex flex-align-center flex-justify-center">
+                                            <div class="col-4">
+                                                <img id="class-avatar-img" src="./img/class-avatar.jpg" alt="">
+                                                <span class="pl-16">Classe 75</span>
+                                            </div>
+                                            <div class="col-2 text-center">15 Feb 2021</div>
+                                            <div class="col-2 text-center">20%</div>
+                                            <div class="col-2 text-center d-flex flex-justify-center">
+                                                <div class="status-tags tag-process">Process</div>
+                                            </div>
+                                            <div class="col-2 flex-align-center d-flex flex-justify-center">
+                                                <i class="action-icons fas fas fa-pencil-alt"></i>
+                                                <i class="action-icons fas fas fa-trash"></i>
+                                            </div>
+                                            <hr class="mt-16">
+                                        </div>
+
+                                        <div class="row d-flex flex-align-center flex-justify-center">
+                                            <div class="col-4">
+                                                <img id="class-avatar-img" src="./img/class-avatar.jpg" alt="">
+                                                <span class="pl-16">Classe 75</span>
+                                            </div>
+                                            <div class="col-2 text-center">15 Feb 2021</div>
+                                            <div class="col-2 text-center">20%</div>
+                                            <div class="col-2 text-center d-flex flex-justify-center">
+                                                <div class="status-tags tag-done">Done</div>
+                                            </div>
+                                            <div class="col-2 flex-align-center d-flex flex-justify-center">
+                                                <i class="action-icons fas fas fa-pencil-alt"></i>
+                                                <i class="action-icons fas fas fa-trash"></i>
+                                            </div>
+                                            <hr class="mt-16">
+                                        </div>
+
+                                        <div class="row d-flex flex-align-center flex-justify-center">
+                                            <div class="col-4">
+                                                <img id="class-avatar-img" src="./img/class-avatar.jpg" alt="">
+                                                <span class="pl-16">Classe 75</span>
+                                            </div>
+                                            <div class="col-2 text-center">15 Feb 2021</div>
+                                            <div class="col-2 text-center">20%</div>
+                                            <div class="col-2 text-center d-flex flex-justify-center">
+                                                <div class="status-tags tag-failed">Failed</div>
+                                            </div>
+                                            <div class="col-2 flex-align-center d-flex flex-justify-center">
+                                                <i class="action-icons fas fas fa-pencil-alt"></i>
+                                                <i class="action-icons fas fas fa-trash"></i>
+                                            </div>
+                                            <hr class="mt-16">
+                                        </div>
+
+
+
+                                        <!-- <blockquote class="blockquote mb-0">
+                                            <p></p>
                                             <footer class="blockquote-footer">Someone famous in <cite
                                                     title="Source Title">Source Title</cite></footer>
                                         </blockquote>
@@ -100,61 +535,158 @@
                                             <p>A well-known quote, contained in a blockquote element.</p>
                                             <footer class="blockquote-footer">Someone famous in <cite
                                                     title="Source Title">Source Title</cite></footer>
-                                        </blockquote>
+                                        </blockquote> -->
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12">
-                            <div class="card border-radius-none">
-                                <div class="card-header">
-                                    Quote
-                                </div>
-                                <div class="card-body">
-                                    <blockquote class="blockquote mb-0">
-                                        <p>A well-known quote, contained in a blockquote element.</p>
-                                        <footer class="blockquote-footer">Someone famous in <cite
-                                                title="Source Title">Source Title</cite></footer>
-                                    </blockquote>
-                                    <hr>
-                                    <blockquote class="blockquote mb-0">
-                                        <p>A well-known quote, contained in a blockquote element.</p>
-                                        <footer class="blockquote-footer">Someone famous in <cite
-                                                title="Source Title">Source Title</cite></footer>
-                                    </blockquote>
+                            <div class="card m-16 mt-0">
+                                <div class="accordion" id="accordionExample">
+                                    <div class="card-header">
+                                        F.A.Q.
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingOne">
+
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseOne" aria-expanded="true"
+                                                aria-controls="collapseOne">
+                                                Accordion Item #1
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse show"
+                                            aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <strong>This is the first item's accordion body.</strong> It is shown by
+                                                default, until the collapse plugin adds the appropriate classes that we
+                                                use to style each element. These classes control the overall appearance,
+                                                as well as the showing and hiding via CSS transitions. You can modify
+                                                any of this with custom CSS or overriding our default variables. It's
+                                                also worth noting that just about any HTML can go within the
+                                                <code>.accordion-body</code>, though the transition does limit overflow.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingTwo">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                aria-expanded="false" aria-controls="collapseTwo">
+                                                Accordion Item #2
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse"
+                                            aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <strong>This is the second item's accordion body.</strong> It is hidden
+                                                by default, until the collapse plugin adds the appropriate classes that
+                                                we use to style each element. These classes control the overall
+                                                appearance, as well as the showing and hiding via CSS transitions. You
+                                                can modify any of this with custom CSS or overriding our default
+                                                variables. It's also worth noting that just about any HTML can go within
+                                                the <code>.accordion-body</code>, though the transition does limit
+                                                overflow.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingThree">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                                aria-expanded="false" aria-controls="collapseThree">
+                                                Accordion Item #3
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree" class="accordion-collapse collapse"
+                                            aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <strong>This is the third item's accordion body.</strong> It is hidden
+                                                by default, until the collapse plugin adds the appropriate classes that
+                                                we use to style each element. These classes control the overall
+                                                appearance, as well as the showing and hiding via CSS transitions. You
+                                                can modify any of this with custom CSS or overriding our default
+                                                variables. It's also worth noting that just about any HTML can go within
+                                                the <code>.accordion-body</code>, though the transition does limit
+                                                overflow.
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-4 padding-none responsive-col">
-                        <div class="row">
-                            <div class="card border-radius-none">
+                        <div class="card m-16 ml-0">
+                            <div class="" id="">
                                 <div class="card-header">
-                                    Quote
+                                    Todo
                                 </div>
-                                <div class="card-body">
-                                    <blockquote class="blockquote mb-0">
-                                        <p>A well-known quote, contained in a blockquote element.</p>
-                                        <footer class="blockquote-footer">Someone famous in <cite
-                                                title="Source Title">Source Title</cite></footer>
-                                    </blockquote>
+
+                                <div class="" id="">
+                                    <div class="card-body">
+                                        <div class="">
+                                            <div class="card p-1">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                        Default checkbox
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                        Default checkbox
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                        Default checkbox
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="card border-radius-none">
-                                <div class="card-header">
-                                    Quote
-                                </div>
+
+                        <div class="card m-16 ml-0">
+                            <div class="" id="">
                                 <div class="card-body">
-                                    <blockquote class="blockquote mb-0">
-                                        <p>A well-known quote, contained in a blockquote element.</p>
-                                        <footer class="blockquote-footer">Someone famous in <cite
-                                                title="Source Title">Source Title</cite></footer>
-                                    </blockquote>
+                                    <div class="">
+                                        <div class="card graph-card">
+                                            <div class="card-body">
+                                                <div>
+                                                    <img id="stats-img" src="./img/stats.jpeg" alt="">
+                                                    <p>Utenti attivi</p>
+                                                    <p>Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
+                                                    <p>Gennaio: 1200</p>
+                                                    <p>Febbraio: 800</p>
+                                                    <p>Marzo: 1500</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                        <!-- <div class="card graph-card">
+                                <div class="card-body">
+                                    <div>
+                                        <img id="stats-img" src="./img/stats.jpeg" alt="">
+                                        <p>Utenti attivi</p>
+                                        <p>Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
+                                        <p>Gennaio: 1200</p>
+                                        <p>Febbraio: 800</p>
+                                        <p>Marzo: 1500</p>
+                                    </div>
+                                </div>
+                            </div> -->
                     </div>
                 </div>
             </div>
