@@ -15,26 +15,42 @@
     height: 100vh;
 }
 
+#logo-img {
+    width: 15%;
+}
+
+
 
 #class-avatar-img {
     width: 10% !important;
 }
 
 .prossime-classi-card {
-    height: 360px !important;
+    height: 300px !important;
     overflow-y: scroll !important;
 }
 
-
+#bell-icon {
+    color: #ffd000;
+}
 
 .status-tags {
-    width: 50px;
+    width: 3rem;
     color: #fff;
-    padding-top: 2px;
+    padding: 0.2rem;
     border: 1px solid transparent;
     border-radius: 6px;
-    font-size: 12px;
-    height: 25px;
+    font-size: 9px;
+    height: 1.5rem;
+}
+
+.breadcrumbs-tags {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 1.5rem;
+    padding: 0 0.4rem;
+    border-radius: 60px;
+    font-size: small;
+    margin-right: 3px;
 }
 
 .tag-done {
