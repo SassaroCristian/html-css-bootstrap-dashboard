@@ -14,7 +14,25 @@
         justify-content: center;
     }
 
-   
+    .more-breadcrumbs::after {
+        content: "+";
+        background-color: rgba(0, 0, 0, 0.2);
+        height: 1.5rem;
+        padding: 0.2rem 0.4rem;
+        border-radius: 60px;
+        font-size: small;
+        margin-left: 3px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .breadcrumbs-tags-resp {
+        display: none;
+    } 
+
+    .breadcrumbs-resp-plus {
+        display: block;
+    }
 
     .card-responsive {
         width: 100% !important;
@@ -36,6 +54,14 @@
 
     .responsive-col {
         grid-column: 12;
+    }
+
+    .hero {
+        padding-left: 75px !important;
+    }
+
+    .sidebar-container-size {
+        width: 75px !important;
     }
 
     .left-nav-links {
